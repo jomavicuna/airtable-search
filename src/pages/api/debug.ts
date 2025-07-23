@@ -47,7 +47,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     }
     
     // Probar cada combinación
-    const testResults = {};
+    const testResults: Record<string, any> = {};
     
     for (const { baseId, tableName } of testCombinations) {
       const key = `${baseId}/${tableName}`;
