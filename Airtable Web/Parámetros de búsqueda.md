@@ -1,0 +1,5 @@
+- location_tag
+- context_tag
+- people_tag
+- name
+- tags

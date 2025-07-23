@@ -1,0 +1,3 @@
+Name: AEA
+Token ID: patLUFQebdN5VqGZU
+Token: patLUFQebdN5VqGZU.f4176b1dab5da14244683d9b1452e05fd215acbc9802508caf0e7021bc6aa3a7

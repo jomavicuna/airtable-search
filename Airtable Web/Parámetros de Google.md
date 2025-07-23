@@ -1,0 +1,30 @@
+Original
+- google_id
+- folder_path
+- asset_type
+- file_format
+- location_tag
+- context_tag
+- people_tag
+- tags
+- folder_name_clean
+- goal_tag
+- Owners
+- id
+- LinkDrive
+- url
+- file <-- El thumbnail
+- StatusModifiedTime
+- Status
+- StatusModified
+- TagsModifiedTime
+- Fee
+- creation_date
+- Reports
+- File Size (in bytes)
+- reports 2
+- Name
+- Last Viewed By Me
+- Last Modified
+- Last Modified By
+- Parent Folder
