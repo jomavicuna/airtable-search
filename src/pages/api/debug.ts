@@ -36,7 +36,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     
     // Si encontramos bases en la respuesta, añadirlas a las combinaciones de prueba
     if (data.bases && Array.isArray(data.bases)) {
-      data.bases.forEach(base => {
+      data.bases.forEach((base: { id: string; name?: string }) => {
         testCombinations.push({ baseId: base.id, tableName: 'Original' });
         
         // Si la base tiene un nombre que incluye "AEA", probar con ese ID

@@ -1,0 +1,11 @@
+{
+  "env": {
+    "AIRTABLE_API_KEY": "patLUFQebdN5VqGZU.f4176b1dab5da14244683d9b1452e05fd215acbc9802508caf0e7021bc6aa3a7",
+    "AIRTABLE_BASE_ID": "app64AZuGEypIXAa7",
+    "AIRTABLE_TABLE_NAME": "files"
+  },
+  "buildCommand": "next build",
+  "outputDirectory": ".next",
+  "devCommand": "next dev",
+  "framework": "nextjs"
+}
