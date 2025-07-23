@@ -71,7 +71,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             
             // Si encontramos tablas, registrarlas
             if (tableData.tables && Array.isArray(tableData.tables)) {
-              console.log(`Tablas encontradas en ${baseId}:`, tableData.tables.map(t => t.name));
+              console.log(`Tablas encontradas en ${baseId}:`, tableData.tables.map((t: { name: string }) => t.name));
             }
           } else {
             testResults[key].tablesError = tableResponse.statusText;
